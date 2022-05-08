@@ -11,4 +11,21 @@
 ![image](https://user-images.githubusercontent.com/103022040/167290663-aaed655e-c4be-4df1-9f77-0735ffcadb7a.png)
 - Jenkins is ready to explore
 ![image](https://user-images.githubusercontent.com/103022040/167290722-807d9a42-5b3d-48a0-b3c5-f7fb3d257d72.png)
-## 
+## Push image to docker hub using pipeline in jenkins from bit bucket
+- Go to pipeline and write a script defining stage first to take a code from bit bucket
+![image](https://user-images.githubusercontent.com/103022040/167294543-89c1ad27-9147-4afe-9969-d4bd267771ec.png)
+- Here 'tk4' is a variable defined in jenkin credential with username and password
+![image](https://user-images.githubusercontent.com/103022040/167294616-8f08a23e-29da-41a1-988a-964457a90b66.png)
+- In second stage use following comand  to build docker image using docker file
+![image](https://user-images.githubusercontent.com/103022040/167294755-84aa9082-d90b-4ca3-a753-ee8b2e3db7ab.png)
+- In final stage push the image to docker hub as follows:
+![image](https://user-images.githubusercontent.com/103022040/167294823-69eedf3c-6b2b-4aa4-8633-ea2ee71f8ae4.png)
+- click on build now to check the stages 
+![image](https://user-images.githubusercontent.com/103022040/167294892-f86a9c56-449d-4cdd-86b2-a8579bfac866.png)
+- we can verify by checking in the docker hub
+![image](https://user-images.githubusercontent.com/103022040/167294961-37a75d5c-6d28-4eef-8ae9-b07fc98db8a1.png)
+## Push image to git lab repository using pipeline in jenkins from bit bucket
+- Go to pipeline and write a script defining stage first to take a code from bit bucket
+![image](https://user-images.githubusercontent.com/103022040/167294543-89c1ad27-9147-4afe-9969-d4bd267771ec.png)
+- Here 'tk4' is a variable defined in jenkin credential with username and password
+![image](https://user-images.githubusercontent.com/103022040/167294616-8f08a23e-29da-41a1-988a-964457a90b66.png)
