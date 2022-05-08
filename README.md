@@ -24,8 +24,17 @@
 ![image](https://user-images.githubusercontent.com/103022040/167294892-f86a9c56-449d-4cdd-86b2-a8579bfac866.png)
 - we can verify by checking in the docker hub
 ![image](https://user-images.githubusercontent.com/103022040/167294961-37a75d5c-6d28-4eef-8ae9-b07fc98db8a1.png)
-## Push image to git lab repository using pipeline in jenkins from bit bucket
-- Go to pipeline and write a script defining stage first to take a code from bit bucket
+## *Push image to git lab repository using pipeline in jenkins from bit bucket*
+- #### Go to pipeline and write a script defining stage first to take a code from bit bucket
 ![image](https://user-images.githubusercontent.com/103022040/167294543-89c1ad27-9147-4afe-9969-d4bd267771ec.png)
-- Here 'tk4' is a variable defined in jenkin credential with username and password
+- #### Here 'tk4' is a variable defined in jenkin credential with username and password
 ![image](https://user-images.githubusercontent.com/103022040/167294616-8f08a23e-29da-41a1-988a-964457a90b66.png)
+- #### Build docker image using docker file 
+![image](https://user-images.githubusercontent.com/103022040/167299838-e6f8abc0-d4b9-49f3-9395-4483f1da4b48.png)
+- #### Generate a token in git lab use it as password and push image to git lab repository
+![image](https://user-images.githubusercontent.com/103022040/167299924-0f6c0e45-12fe-472b-801c-6bed001c4874.png)
+- #### Click on build now to check the stages 
+![image](https://user-images.githubusercontent.com/103022040/167300007-a0371d84-c71f-47aa-8246-fbc9390a9436.png)
+- #### We can verify by checking in git lab repository
+![image](https://user-images.githubusercontent.com/103022040/167300052-1893d315-3c86-4505-bbe5-b59bb0b2ab84.png)
+
