@@ -37,4 +37,30 @@
 ![image](https://user-images.githubusercontent.com/103022040/167300007-a0371d84-c71f-47aa-8246-fbc9390a9436.png)
 - #### We can verify by checking in git lab repository
 ![image](https://user-images.githubusercontent.com/103022040/167300052-1893d315-3c86-4505-bbe5-b59bb0b2ab84.png)
+## Multibranch pipeline
+- #### create a new project enter name and select multibranch pipeline
+![image](https://user-images.githubusercontent.com/103022040/168459715-2f0c82f8-2c2d-4933-940e-782c097305d2.png)
+- #### add the git source and clone the git project in general tab
+ ![image](https://user-images.githubusercontent.com/103022040/168459764-122c753e-c37e-41b6-a82c-db5b376a0a44.png)
+- #### add the credential 
+![image](https://user-images.githubusercontent.com/103022040/168459854-8b673a72-c954-4d59-9b0e-7e9fb896e7e5.png)
+- #### it is compulsory to have jenkins file 
+![image](https://user-images.githubusercontent.com/103022040/168460058-474888fa-b50e-47f2-95aa-a80ea26f1362.png)
+- #### this jenkins file contains the following code
+![image](https://user-images.githubusercontent.com/103022040/168460088-0033084d-83ae-42dc-9674-13b825c13c8f.png)
+- #### It contains the multiple branch
+![image](https://user-images.githubusercontent.com/103022040/168460127-a74de377-809e-4703-95da-bac16ea837c5.png)
+- #### When we scan it automatically detect the four branches 
+![image](https://user-images.githubusercontent.com/103022040/168460275-c165d2ae-ca29-46d6-9419-9516a3ee2962.png)
+- #### if we add a new branch slave right here 
+![image](https://user-images.githubusercontent.com/103022040/168460353-2806a91b-944f-4f38-99ff-bf7a851a73f4.png)
+- #### jenkins multilinepipeline automatically detect after scanning
+![image](https://user-images.githubusercontent.com/103022040/168460397-6fbf7a10-d024-4249-b3e4-cea327cb9d9a.png)
+- #### we can select which branch to scan in behaviour section 
+![image](https://user-images.githubusercontent.com/103022040/168460485-3bcb2d5a-eb22-49f6-a29b-146ce083997c.png)
+- #### when we scan it automatically detected only selected branches
+![image](https://user-images.githubusercontent.com/103022040/168460666-e607594b-6950-4f8f-a03b-a84f3e611de9.png)
+
+
+
 
