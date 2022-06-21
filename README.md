@@ -60,6 +60,17 @@
 ![image](https://user-images.githubusercontent.com/103022040/168460485-3bcb2d5a-eb22-49f6-a29b-146ce083997c.png)
 - #### when we scan it automatically detected only selected branches
 ![image](https://user-images.githubusercontent.com/103022040/168460666-e607594b-6950-4f8f-a03b-a84f3e611de9.png)
+## Jenkins with https
+- ####  Do this to generate one jenkins_keystore.jks in the home folder of ubuntu
+![Capture1ststep](https://user-images.githubusercontent.com/103022040/174764084-1509784d-3d00-4881-9e7f-675d7bfc5506.JPG)
+- #### Now, you can easily set up Jenkins to run on HTTPs while you are not making your own docket image:
+![Capture2ndsteps](https://user-images.githubusercontent.com/103022040/174764712-6beb2d0b-8083-4406-9866-c1692a81d358.JPG)
+- #### We can check a container is running 
+![Capture3rdsteps](https://user-images.githubusercontent.com/103022040/174764971-1c1c9f09-4caa-47fd-a88b-364d191e08de.JPG)
+- #### Jenkins running on https now we can check in local browser
+![image](https://user-images.githubusercontent.com/103022040/174765801-b00be346-2922-4f45-8691-383591c60de0.png)
+- #### link for this documentation https://intellipaat.com/community/11512/setup-secured-jenkins-master-with-docker
+
 
 
 
