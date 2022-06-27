@@ -70,7 +70,30 @@
 - #### Jenkins running on https now we can check in local browser
 ![image](https://user-images.githubusercontent.com/103022040/174765801-b00be346-2922-4f45-8691-383591c60de0.png)
 - #### link for this documentation https://intellipaat.com/community/11512/setup-secured-jenkins-master-with-docker
-
+## *Create and Manage Users in Jenkins*
+- #### link for the documentation https://www.javatpoint.com/create-and-manage-users-in-jenkins
+### Install Role-based Authorization Strategy Plugin
+- #### Open your Jenkins dashboard by visiting http://localhost:8080/jenkins
+![image](https://user-images.githubusercontent.com/103022040/175924235-ec416b7a-642b-42e1-91f7-160746106358.png)
+- #### Click on manage jenkins select manage plugin
+![rolebased1](https://user-images.githubusercontent.com/103022040/175924829-d6e90cea-24c1-460f-8905-a750c332697f.JPG)
+- #### Select availabe tab in manage plugin and type role-based and press enter
+![image](https://user-images.githubusercontent.com/103022040/175925728-e3ed665b-1658-4c91-bc3c-bb0b8e08e43f.png)
+- #### Now, select the plugin and click on 'Install without restart' button.
+![jenkinsrolebase3](https://user-images.githubusercontent.com/103022040/175925939-21aaa8cd-7413-4b99-adf9-b92121c2ed5e.JPG)
+### Enable Role-Based Strategy on Jenkins
+- #### After Plugin installation, go to the 'Manage Jenkins' and then click on 'Configure Global Security'
+![rolebased4](https://user-images.githubusercontent.com/103022040/175927529-93bb86c0-eb75-4468-bf8c-2a0b78253c70.JPG)
+- #### On Authorization section, select 'Role-Based Strategy'. And click save.
+![image](https://user-images.githubusercontent.com/103022040/175927885-1eda7fe9-4f42-46e7-ae4a-de0647bf8561.png)
+- #### Click on manage user and create first user 
+![rolebased8](https://user-images.githubusercontent.com/103022040/175928760-c1e3415f-13d6-4414-b1cd-c2bb46568000.JPG)
+- #### Create first user and click on save button 
+![rolebased9](https://user-images.githubusercontent.com/103022040/175928923-c38d3e76-57a3-4ba1-afd1-877801699e0d.JPG)
+- #### Create another user
+![rolebased12](https://user-images.githubusercontent.com/103022040/175929073-b1e14f3d-0e0f-465e-95f1-34eb7b79606f.JPG)
+- #### The following user has been created
+![rolebased13](https://user-images.githubusercontent.com/103022040/175929261-bc10d776-7262-4750-84c6-e36093208824.JPG)
 
 
 
