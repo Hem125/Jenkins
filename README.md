@@ -94,6 +94,13 @@
 ![rolebased12](https://user-images.githubusercontent.com/103022040/175929073-b1e14f3d-0e0f-465e-95f1-34eb7b79606f.JPG)
 - #### The following user has been created
 ![rolebased13](https://user-images.githubusercontent.com/103022040/175929261-bc10d776-7262-4750-84c6-e36093208824.JPG)
+### Managing User Roles on Jenkins
+- #### Click on Manage Jenkins.Select Manage and Assign Roles. Note that, Manage and Assign Role will only be visible if you have installed the Role strategy plugin.
+![rolebased14](https://user-images.githubusercontent.com/103022040/175929768-3591a562-743a-423d-ae82-4b2f19924c3a.JPG)
+- #### Click on Manage Roles option to add new roles.
+![rolebased16](https://user-images.githubusercontent.com/103022040/175930073-debda4f4-6a0b-493f-b6d9-d9ac1dce324c.JPG)
+- #### To create a new role called "developer". Type "developer" in the Role to add option.Click on Add to create a new role.Now, select the appropriate permissions     ####  that you want to assign to the developer role.Then Click on Save button.
+![image](https://user-images.githubusercontent.com/103022040/175930501-728abd5a-d2e2-4c9b-b8cf-f9bc7c2e84b5.png)
 
 
 
