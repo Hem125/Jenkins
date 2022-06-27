@@ -100,7 +100,8 @@
 - #### Click on Manage Roles option to add new roles.
 ![rolebased16](https://user-images.githubusercontent.com/103022040/175930073-debda4f4-6a0b-493f-b6d9-d9ac1dce324c.JPG)
 - #### To create a new role called "developer". Type "developer" in the Role to add option.Click on Add to create a new role.Now, select the appropriate permissions     ####  that you want to assign to the developer role.Then Click on Save button.
-![image](https://user-images.githubusercontent.com/103022040/175930501-728abd5a-d2e2-4c9b-b8cf-f9bc7c2e84b5.png)
+![rolebased17](https://user-images.githubusercontent.com/103022040/175930847-c5265859-8839-4caf-a762-d6d3878460c7.JPG)
+
 
 
 
