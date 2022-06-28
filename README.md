@@ -101,6 +101,21 @@
 ![rolebased16](https://user-images.githubusercontent.com/103022040/175930073-debda4f4-6a0b-493f-b6d9-d9ac1dce324c.JPG)
 - #### To create a new role called "developer". Type "developer" in the Role to add option.Click on Add to create a new role.Now, select the appropriate permissions     ####  that you want to assign to the developer role.Then Click on Save button.
 ![rolebased17](https://user-images.githubusercontent.com/103022040/175930847-c5265859-8839-4caf-a762-d6d3878460c7.JPG)
+## *Jenkins using Docker in Docker*
+- #### Run the following command to run docker in docker 
+![dockerin docker 1](https://user-images.githubusercontent.com/103022040/176106462-85414ce9-dfa4-4357-8992-f078758d7a68.JPG)
+- #### We can check container running using docker ps command 
+![dockerindocker2](https://user-images.githubusercontent.com/103022040/176106590-e5e2fe0d-4c66-405f-89e7-d16b9ab4dee9.JPG)
+- #### Now we need to pull a jenkins image from docker hub
+![dockerindocker4](https://user-images.githubusercontent.com/103022040/176107880-5ab08840-f58f-4439-854a-19765c96e710.JPG)
+- #### Now we can see jenkins as a container using ps -a
+![dockerindocker5](https://user-images.githubusercontent.com/103022040/176108026-32302b59-700c-4726-bb4e-2cef7d9ed657.JPG)
+- #### We need to start the jenkins and run it as a container 
+![dockerindocker6](https://user-images.githubusercontent.com/103022040/176108122-21431ff2-0950-43f4-9b0a-2fdb5fc5252b.JPG)
+
+
+
+
 
 
 
