@@ -112,7 +112,7 @@
 ![dockerindocker4](https://user-images.githubusercontent.com/103022040/176107880-5ab08840-f58f-4439-854a-19765c96e710.JPG)
 - #### Now we can see jenkins as a container using ps -a
 ![dockerindocker5](https://user-images.githubusercontent.com/103022040/176108026-32302b59-700c-4726-bb4e-2cef7d9ed657.JPG)
-- #### We need to start the jenkins and run it as a container 
+- #### We need to start and run it as a container 
 ![dockerindocker6](https://user-images.githubusercontent.com/103022040/176108122-21431ff2-0950-43f4-9b0a-2fdb5fc5252b.JPG)
 
 
