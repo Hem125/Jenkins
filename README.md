@@ -106,6 +106,8 @@
 ![dockerin docker 1](https://user-images.githubusercontent.com/103022040/176106462-85414ce9-dfa4-4357-8992-f078758d7a68.JPG)
 - #### We can check container running using docker ps command 
 ![dockerindocker2](https://user-images.githubusercontent.com/103022040/176106590-e5e2fe0d-4c66-405f-89e7-d16b9ab4dee9.JPG)
+- #### Now we need to go inside a container using following command 
+![dockerindocker3](https://user-images.githubusercontent.com/103022040/176108480-26a3e10b-cf69-4fbc-87a9-9802b495f485.JPG)
 - #### Now we need to pull a jenkins image from docker hub
 ![dockerindocker4](https://user-images.githubusercontent.com/103022040/176107880-5ab08840-f58f-4439-854a-19765c96e710.JPG)
 - #### Now we can see jenkins as a container using ps -a
