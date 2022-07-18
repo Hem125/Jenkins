@@ -114,8 +114,13 @@
 ![dockerindocker5](https://user-images.githubusercontent.com/103022040/176108026-32302b59-700c-4726-bb4e-2cef7d9ed657.JPG)
 - #### We need to start and run it as a container 
 ![dockerindocker6](https://user-images.githubusercontent.com/103022040/176108122-21431ff2-0950-43f4-9b0a-2fdb5fc5252b.JPG)
-
-
+## Manage email notification 
+- #### Open jenkins dashboard and go to manange plugins
+![image](https://user-images.githubusercontent.com/103022040/179491719-832cd37e-e873-476c-9ac0-1638e15d46b2.png)
+- #### Select option manage plugins 
+![image](https://user-images.githubusercontent.com/103022040/179492816-2bc2ff9d-8010-4a05-bb7b-8850f6053254.png)
+- #### Type email and download the email extension plugin
+![image](https://user-images.githubusercontent.com/103022040/179495763-c1b0354f-8a4a-4097-8892-9875a12e239b.png)
 
 
 
