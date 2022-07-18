@@ -121,6 +121,11 @@
 ![image](https://user-images.githubusercontent.com/103022040/179492816-2bc2ff9d-8010-4a05-bb7b-8850f6053254.png)
 - #### Type email and download the email extension plugin
 ![image](https://user-images.githubusercontent.com/103022040/179495763-c1b0354f-8a4a-4097-8892-9875a12e239b.png)
+- #### Create a new pipeline 
+![image](https://user-images.githubusercontent.com/103022040/179498711-cd19c28b-9606-4735-aced-fa9ef5efb05c.png)
+- #### Open the confriguration go to source file management add the git hub link and credential 
+![image](https://user-images.githubusercontent.com/103022040/179500277-a7f8ef04-12c4-41aa-bc84-b86773fab1e5.png)
+
 
 
 
