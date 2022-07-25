@@ -125,6 +125,28 @@
 ![image](https://user-images.githubusercontent.com/103022040/179498711-cd19c28b-9606-4735-aced-fa9ef5efb05c.png)
 - #### Open the confriguration go to source file management add the git hub link and credential 
 ![image](https://user-images.githubusercontent.com/103022040/179500277-a7f8ef04-12c4-41aa-bc84-b86773fab1e5.png)
+- #### Add the recipents in email notification part
+![image](https://user-images.githubusercontent.com/103022040/180704173-4fc89c73-109b-4928-8abb-c477374b4a6c.png)
+- #### Go to managejenkins and select configure system
+![image](https://user-images.githubusercontent.com/103022040/180706352-6f7458b7-afc4-434f-b936-bd6269aecc3e.png)
+- #### Go to extend email notification add the smtp server name for gmail and port number as 465 and add the credential
+![image](https://user-images.githubusercontent.com/103022040/180707188-4d38c804-99ae-480f-bc0b-08f47b8cff6c.png)
+- #### Do the same process in email notification save and apply
+![image](https://user-images.githubusercontent.com/103022040/180707579-37112229-56ab-4a61-876f-15cc26cb402d.png)
+- #### After running pipeline one can get email notification like this is gmail id
+![image](https://user-images.githubusercontent.com/103022040/180708212-1fc653e8-283d-4b7b-a032-44cf137cd175.png)
+## Configure jenkins email notification through pipeline
+- #### In the pipeline script add the following code. In first stage we are defining the git credential 
+![image](https://user-images.githubusercontent.com/103022040/180715913-7f55c64a-5234-42c4-a556-8dbeedaae660.png)
+- #### In second stage we are using WORKSPACE variable and redirecting its file content to another file
+![image](https://user-images.githubusercontent.com/103022040/180717151-aeb25931-c83d-4762-a086-c7061b09cb3b.png)
+- #### In the post always section we use code for email attachement and send notificaton as follows. Save and apply.
+![image](https://user-images.githubusercontent.com/103022040/180717419-8f398b95-74c6-4b9b-b97b-56d3cb494663.png)
+- #### In this we have to copy the content of this workspace file of jenkins
+![image](https://user-images.githubusercontent.com/103022040/180718830-bdb4f1fc-cc48-40c2-93db-afdebc95747e.png)
+- #### After running a pipeline we will get a mail like this 
+![image](https://user-images.githubusercontent.com/103022040/180719298-01bf48a2-8831-46fd-b5d8-b20d34fcc6ed.png)
+
 
 
 
